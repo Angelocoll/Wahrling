@@ -1,0 +1,199 @@
+header{
+    width: 100%;
+    height: 400px;
+}
+
+h1{
+    font-size: 82px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    padding-top: 48px;
+}
+h2{
+    font-size: 42px;
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    text-decoration-color: rgb(169, 143, 0);
+    margin-left: 20px;
+    
+    font-style: italic;
+}
+p{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+main{
+    width: 100%;
+    height: 760px;
+    
+}
+footer{
+    width: 100%;
+    height: 300px;
+    
+}
+body{
+    margin:0px;
+}
+.rub-box{
+    height: 220px;
+    width: 620px;
+    background-color: rgb(255, 255, 255);
+   
+
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    
+    
+    border-style:solid ;
+    border-width: 12px;
+    border-color: rgb(169, 143, 0);
+    border-radius: 4px;
+    
+}
+.contact{
+    height: 200px;
+    width: 560px;
+    margin:auto;
+    
+    
+    
+    
+    background-color: rgba(255, 255, 255, 0.952);
+    
+    border-radius: 8px;
+    border-style:solid ;
+    border-width: 4px;
+    border-color: rgb(169, 143, 0);
+    
+}
+.contact:hover{
+    scale: 1.3;
+    transition: all 0.25s;
+    
+}
+
+.contact:not(:hover)
+{
+    transition: all 3s;
+}
+
+h3{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+ul{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding-left: 220px;
+    margin-top: 0;
+
+}
+li{
+    padding-top: 30px;
+}
+.about, .bemanning, .Event{
+
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 236px;
+    border-style: ridge;
+    background-color: #ffffff;
+    
+}
+
+
+.pattern {min-height:200px;}
+
+.stripes1 {
+background: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 0), #ffffff;
+background-size:100px auto;
+}
+@media screen and (max-width: 1400px) 
+{
+    .rub-box{
+        position: absolute;
+        left: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .rub-box{
+        width: 300px;
+        height: 130px;
+        left: 12%;
+
+        
+    }
+
+    .stripes1{
+        background-size: 50px;
+        
+    }
+    
+    h1{
+        font-size: 44px;
+        padding-top: 32px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 28px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .contact{
+        height: 130px;
+        width: 260px;
+       
+
+    }
+    ul{
+        padding-left: 70px;
+    }
+    li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    header{
+       height: 280px;
+       width: 380px;
+    }
+    main{
+        min-height: 720px;
+    }
+    p{
+        font-size: 11px;
+        margin-right: 20px;
+    }
+    footer{
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    p{
+        font-size: 10px;
+    }
+    .rub-box{
+        left: 26px;
+    }
+    h3{
+        padding-top: 0px;
+    }
+    
+}
